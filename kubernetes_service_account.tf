@@ -1,4 +1,4 @@
-esource "kubernetes_service_account" "alb-ingress" {
+resource "kubernetes_service_account" "alb-ingress" {
   metadata {
     name = "alb-ingress-controller"
     namespace = "kube-system"
